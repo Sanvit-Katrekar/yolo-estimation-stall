@@ -30,11 +30,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "yolo-estimation-stall-production.up.railway.app",
-    ".railway.app"
+    ".railway.app",
+    "*"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://yolo-estimation-stall-production.up.railway.app"
+    "https://yolo-estimation-stall-production.up.railway.app",
 ]
 
 
